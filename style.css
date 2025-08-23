@@ -1,0 +1,18 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.habit-card {
+  transition: transform 0.2s ease-in-out;
+}
+.habit-card:hover {
+  transform: translateY(-5px);
+}
+
+.progress-bar {
+  transition: width 0.6s ease;
+}
